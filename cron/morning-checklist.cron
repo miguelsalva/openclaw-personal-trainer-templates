@@ -1,0 +1,17 @@
+# Coach: morning checklist daily at 7:00 local time
+# Replace placeholders:
+#   <NPM_GLOBAL_BIN>  → run `which openclaw` to find it (typically /home/<user>/.npm-global/bin or /usr/bin)
+#   <YOUR_CHAT_ID>    → your Telegram user ID (numeric)
+#   <LOG_PATH>        → wherever you want output logged
+
+0 7 * * * <NPM_GLOBAL_BIN>/openclaw agent --to <YOUR_CHAT_ID> --message "[morning_checklist]" --deliver >> <LOG_PATH>/cron.log 2>&1
+
+# Notes:
+# - Cron uses the system timezone. Verify with `timedatectl | grep "Time zone"`.
+#   If your system is UTC and you want 7:00 local, adjust the hour accordingly,
+#   or set TZ for the cron line:
+#   CRON_TZ=Europe/Madrid
+#   0 7 * * * <...>
+#
+# - To test without waiting until tomorrow, add a temporary line 2-3 minutes
+#   in the future, verify it fires, then remove it.
