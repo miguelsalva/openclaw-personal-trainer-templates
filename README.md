@@ -1,4 +1,4 @@
-# OpenClaw Personal Trainer
+# OpenClaw as Personal Trainer
 
 Companion repo to the Medium article *["My Personal Trainer Is a Node Process Running on My NUC"](#)*.
 
