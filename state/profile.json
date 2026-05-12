@@ -1,0 +1,22 @@
+{
+  "name": "<USER_NAME>",
+  "age": <AGE>,
+  "height_cm": <HEIGHT_CM>,
+  "weight_start_kg": <START_WEIGHT_KG>,
+  "weight_target_kg": <TARGET_WEIGHT_KG>,
+  "target_date": "<TARGET_DATE_ISO>",
+  "sleep_target_h": <TARGET_SLEEP_HOURS>,
+  "race": {
+    "name": "<RACE_NAME>",
+    "date": "<RACE_DATE_ISO>",
+    "distance_km": <DISTANCE_KM>,
+    "elevation_gain_m": <ELEVATION_M>
+  },
+  "fivex_rm_estimates_kg": {
+    "squat": <X>,
+    "bench": <X>,
+    "deadlift": <X>,
+    "ohp": <X>,
+    "row": <X>
+  }
+}
