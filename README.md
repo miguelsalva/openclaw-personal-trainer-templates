@@ -1,4 +1,4 @@
-# OpenClaw as Personal Trainer
+# How I Built an AI Personal Trainer with OpenClaw
 
 Companion repo to the Medium article *["My Personal Trainer Is a Node Process Running on My NUC"](#)*.
 
