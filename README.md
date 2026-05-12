@@ -1,6 +1,6 @@
 # How I Built an AI Personal Trainer with OpenClaw
 
-Companion repo to the Medium article *["My Personal Trainer Is a Node Process Running on My NUC"](#)*.
+Companion repo to the Medium article [How I Built an AI Personal Trainer with OpenClaw](https://medium.com/@miguelsalva/how-i-built-an-ai-personal-trainer-with-openclaw-49e7cbf5db1e)
 
 This is **not a turnkey installer**. These are the configuration files I use, anonymized, so you can adapt them to your own setup. The article explains the *why*; this repo gives you the *what to copy*.
 
