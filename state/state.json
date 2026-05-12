@@ -1,0 +1,23 @@
+{
+  "phase": "rebuild",
+  "mesocycle_week": 1,
+  "kcal_target_base": <BASE_KCAL>,
+  "macros_g": {
+    "protein": <PROTEIN_G>,
+    "fat": <FAT_G>,
+    "carb": <CARB_G>
+  },
+  "hydration_target_l": <HYDRATION_L>,
+  "weight_ma7": null,
+  "next_strength_lifts": {
+    "squat_kg": <X>,
+    "bench_kg": <X>,
+    "row_kg": <X>,
+    "deadlift_top_kg": <X>,
+    "deadlift_backoff_kg": <X>,
+    "ohp_kg": <X>
+  },
+  "deload_flag": false,
+  "steps_target": <STEPS_TARGET>,
+  "steps_target_days": "<DAYS_PATTERN>"
+}
