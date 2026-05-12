@@ -1,0 +1,9 @@
+{
+  "updated": "<DATE_ISO>",
+  "squat":    { "scheme": "5x5",     "kg": <X>, "next_increment": 2.5 },
+  "bench":    { "scheme": "5x5",     "kg": <X>, "next_increment": 2.5 },
+  "row":      { "scheme": "5x5",     "kg": <X>, "next_increment": 2.5 },
+  "deadlift": { "scheme": "1x5+2x5", "top_kg": <X>, "backoff_kg": <X>, "next_increment": 5.0 },
+  "ohp":      { "scheme": "5x5",     "kg": <X>, "next_increment": 2.5 },
+  "pullup":   { "scheme": "3xAMRAP", "weight": "bodyweight" }
+}
